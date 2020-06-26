@@ -1,0 +1,37 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "Ubuntu Mono, monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.letterSpacing": 1,
+    "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.cursorStyle": "line",
+    "python.jediEnabled": false,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "Makefile.*": "makefile",
+        "*.mak": "makefile"
+    },
+    "bookmarks.saveBookmarksInProject": true,
+    "gitlens.mode.active": "zen",
+    "files.trimTrailingWhitespace": true,
+
+    "workbench.colorCustomizations": {
+        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+        "editor.selectionBackground": "#00cc44a8",//"#e788ff7c", //Currently SELECTED text
+        "editor.selectionHighlightBackground": "#fa5726c4", //Same content as selection
+    },
+    "workbench.sideBar.location": "left",
+    "explorer.confirmDragAndDrop": false,
+    "testMate.cpp.log.userId": "fa986661db875071bd7a3e6ace50c6625787b6b3",
+    "testMate.cpp.log.logSentry": "disable_3",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.commandsToSkipShell":[
+        "workbench.action.toggleMaximizedPanel",
+    ],
+    "python.languageServer": "Microsoft"
+}
