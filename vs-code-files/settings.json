@@ -16,7 +16,6 @@
     },
     "bookmarks.saveBookmarksInProject": true,
     "gitlens.mode.active": "zen",
-    "files.trimTrailingWhitespace": true,
 
     "workbench.colorCustomizations": {
         "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
@@ -28,10 +27,19 @@
     "explorer.confirmDragAndDrop": false,
     "testMate.cpp.log.userId": "fa986661db875071bd7a3e6ace50c6625787b6b3",
     "testMate.cpp.log.logSentry": "disable_3",
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "cmake.configureOnOpen": false,
     "terminal.integrated.commandsToSkipShell":[
         "workbench.action.toggleMaximizedPanel",
     ],
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Microsoft",
+    "workbench.startupEditor": "welcomePage",
+    "cSpell.userWords": [
+        "gpio",
+        "ienso",
+        "mosquitto",
+        "mqtt",
+        "nlohmann",
+        "rssi"
+    ]
 }
