@@ -43,7 +43,7 @@
 	cpc = cherry-pick --continue
     #############
 	l = log --oneline
-	lg = log --graph --oneline --decorate
+	lg = log --all --graph --pretty=format:\"%C(yellow)%h%Creset%Cred%d%gD%Creset - %s% %Cgreen(%cr) %C(bold blue)<%cl>%Creset\" --date=short
     #############
 	rb = rebase
 	rba = rebase --abort
