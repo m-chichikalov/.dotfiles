@@ -38,8 +38,10 @@
         "gpio",
         "ienso",
         "mosquitto",
+        "moultrie",
         "mqtt",
         "nlohmann",
-        "rssi"
+        "rssi",
+        "stoi"
     ]
 }
