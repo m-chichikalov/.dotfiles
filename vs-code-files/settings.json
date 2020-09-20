@@ -43,5 +43,6 @@
         "nlohmann",
         "rssi",
         "stoi"
-    ]
+    ],
+    "telemetry.enableTelemetry": false
 }
