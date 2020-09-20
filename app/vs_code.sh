@@ -9,24 +9,20 @@ sudo -H apt-get install code
 ######################################################################################################
 # install extensions
 ######################################################################################################
-code -r --force --install-extension ms-python.python
+code -r --force --install-extension jeff-hykin.better-cpp-syntax
+code -r --force --install-extension alefragnani.bookmarks
 
 code -r --force --install-extension ms-vscode.cpptools
 code -r --force --install-extension ms-vscode.cpptools-themes
 
 code -r --force --install-extension twxs.cmake
 code -r --force --install-extension ms-vscode.cmake-tools
-
-code -r --force --install-extension vector-of-bool.cmake-tools
+code -r --force --install-extension streetsidesoftware.code-spell-checker
+code -r --force --install-extension agauniyal.cpp-snippets
+code -r --force --install-extension cschlosser.doxdocgen
+code -r --force --install-extension gaborv.flatbuffers
+code -r --force --install-extension slevesque.vscode-hexdump 
 code -r --force --install-extension VisualStudioExptTeam.vscodeintellicode
-code -r --force --install-extension yyxhx.cpp-quick-start-snippet-for-beginners
-code -r --force --install-extension eamodio.gitlens
-code -r --force --install-extension zxh404.vscode-proto3
-code -r --force --install-extension alefragnani.bookmarks
-code -r --force --install-extension efbenson.scad
-code -r --force --install-extension plorefice.devicetree
-code -r --force --install-extension slevesque.vscode-hexdump
-code -r --force --install-extension ZixuanWang.linkerscript
 
 
 ######################################################################################################
