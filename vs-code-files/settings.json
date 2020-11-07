@@ -1,6 +1,7 @@
 {
     "C_Cpp.updateChannel": "Insiders",
     "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "trailing",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 0,
     "terminal.integrated.fontFamily": "Ubuntu Mono, monospace",
@@ -33,8 +34,9 @@
         "workbench.action.toggleMaximizedPanel",
     ],
     "python.languageServer": "Microsoft",
-    "workbench.startupEditor": "welcomePage",
+    "workbench.startupEditor": "newUntitledFile",
     "cSpell.userWords": [
+        "Allwinner",
         "gpio",
         "ienso",
         "mosquitto",
@@ -42,7 +44,14 @@
         "mqtt",
         "nlohmann",
         "rssi",
+<<<<<<< HEAD
         "stoi"
     ],
     "telemetry.enableTelemetry": false
+=======
+        "stoi",
+        "toolchain",
+        "uboot"
+    ]
+>>>>>>> changed editor.renderWhitespace to trailling
 }
