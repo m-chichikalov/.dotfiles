@@ -32,6 +32,6 @@ rm -Rf ~/.config/Code/User/snippets
 rm -f ~/.config/Code/User/keybindings.json
 rm -f ~/.config/Code/User/settings.json
 
-ln -nfs ~github/m-chichikalov/dotfiles/vs-code-files/snippets/ ~/.config/Code/User/snippets
+ln -nfs ~/github/m-chichikalov/dotfiles/vs-code-files/snippets/ ~/.config/Code/User/snippets
 ln -nfs ~/github/m-chichikalov/dotfiles/vs-code-files/keybindings.json ~/.config/Code/User/keybindings.json
 ln -nfs ~/github/m-chichikalov/dotfiles/vs-code-files/settings.json ~/.config/Code/User/settings.json
