@@ -1,40 +1,60 @@
+// {
+//     "editor.suggestSelection": "first",
+//     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+//     "window.zoomLevel": 0,
+
+//     "python.jediEnabled": false,
+//     "explorer.confirmDelete": false,
+
+//     "workbench.sideBar.location": "left",
+//     "explorer.confirmDragAndDrop": false,
+
+//     "diffEditor.ignoreTrimWhitespace": true,
+    
+//     "cmake.configureOnOpen": false,
+    
+//     "terminal.integrated.commandsToSkipShell":[
+//         "workbench.action.toggleMaximizedPanel",
+//     ],
+
+//     "python.languageServer": "Microsoft",
+//     "workbench.startupEditor": "newUntitledFile",
+// }
+
+
 {
-    "C_Cpp.updateChannel": "Insiders",
-    "editor.suggestSelection": "first",
-    "editor.renderWhitespace": "trailing",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 0,
-    "terminal.integrated.fontFamily": "Ubuntu Mono, monospace",
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.letterSpacing": 1,
-    "terminal.integrated.lineHeight": 1.1,
-    "terminal.integrated.cursorStyle": "line",
-    "python.jediEnabled": false,
-    "explorer.confirmDelete": false,
     "files.associations": {
         "Makefile.*": "makefile",
         "*.mak": "makefile"
     },
+
+    "editor.renderWhitespace": "trailing",
+
     "bookmarks.saveBookmarksInProject": true,
     "gitlens.mode.active": "zen",
 
-    "workbench.colorCustomizations": {
-        "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
-        "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
-        "editor.selectionBackground": "#00cc44a8",//"#e788ff7c", //Currently SELECTED text
-        "editor.selectionHighlightBackground": "#fa5726c4", //Same content as selection
-    },
-    "workbench.sideBar.location": "left",
-    "explorer.confirmDragAndDrop": false,
-    "testMate.cpp.log.userId": "fa986661db875071bd7a3e6ace50c6625787b6b3",
-    "testMate.cpp.log.logSentry": "disable_3",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "cmake.configureOnOpen": false,
+    "telemetry.telemetryLevel": "error",
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.side": "left",
+
+    // "workbench.colorCustomizations": {
+    //     "editor.findMatchBackground": "#00cc44a8", //Current SEARCH MATCH
+    //     "editor.findMatchHighlightBackground": "#ff7b00a1", //Other SEARCH MATCHES
+    //     "editor.selectionBackground": "#00cc44a8",//"#e788ff7c", //Currently SELECTED text
+    //     "editor.selectionHighlightBackground": "#fa5726c4", //Same content as selection
+    // },
+
+    // "terminal.integrated.fontFamily": "Ubuntu Mono, monospace",
+    // "terminal.integrated.letterSpacing": 1,
+    // "terminal.integrated.lineHeight": 1.1,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.cursorStyle": "line",
+
     "terminal.integrated.commandsToSkipShell":[
         "workbench.action.toggleMaximizedPanel",
     ],
-    "python.languageServer": "Microsoft",
-    "workbench.startupEditor": "newUntitledFile",
+
     "cSpell.userWords": [
         "Allwinner",
         "gpio",
@@ -44,14 +64,11 @@
         "mqtt",
         "nlohmann",
         "rssi",
-<<<<<<< HEAD
         "stoi"
     ],
-    "telemetry.enableTelemetry": false
-=======
-        "stoi",
-        "toolchain",
-        "uboot"
-    ]
->>>>>>> changed editor.renderWhitespace to trailling
+
+    "testMate.cpp.log.userId": "fb71bff652e0f1dcd913d5b63cc1defa63764e24",
+    "testMate.cpp.log.logSentry": "disable_3",
+
+    "C_Cpp.updateChannel": "Insiders"
 }
